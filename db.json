@@ -1,3 +1,31 @@
-[{"town":"Москва","industry":"ВСКД","phone":"+7 (495) 740-31-16,+7 (499) 750-24-29"},
-{"town":"Москва","industry":"ПАО «МОЭСК»","phone":"+7 (495) 662-40-70"}]
-
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
